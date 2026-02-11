@@ -1,0 +1,234 @@
+*{
+    margin: 0%;
+    padding: 0%; 
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'idroid';
+    src: url(../fonts/idroid.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root{
+    --verde-secundario: #90ee90e5;
+    --verde-principal: #2E8B57;
+}
+
+body{
+    background-color: blanchedalmond;
+}
+
+h2{
+    font-family: 'idroid', sans-serif, 'Courier New', Courier, monospace;
+    color: rgb(0, 92, 0);
+    text-decoration: none;
+}
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-indent: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.icone{
+    vertical-align: middle;
+}
+
+/*Inicio do css do Header*/
+
+header{
+    color: white;
+    background-color: var(--verde-principal);
+    box-shadow: 0px 5px 25px black;
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(to bottom, var(--verde-principal),var(--verde-principal), rgba(0, 0, 0, 0.603));
+    font-weight: bold;
+}
+
+#cabecalho{
+    text-align: center;
+    padding: 35px;
+}
+
+.titulo{
+    padding-bottom: 20px;
+}
+
+.titulo h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.descricao{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.descricao h3{
+    text-align: center;
+    width: 450px;
+}
+
+.nav-bar{
+    padding: 15px;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+}
+
+.menu a{
+    color: white;
+    padding: 10px;
+    transition: background 0.3s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menu a:hover{
+    background-color: #555;
+    border-radius: 2px;
+}
+
+/*Fim do css do Header*/
+/*--------------------------*/
+/*Inicio do css do Main*/
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#corpo{
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 1px 25px black;
+}
+
+
+.padrao{
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.conteudo a{
+    color: rgb(3, 138, 10);
+    padding: 0px 1.5px;
+}
+
+.conteudo a:hover{
+    text-decoration: underline;
+    border-radius: 2px;
+}
+
+.conteudo p{
+    padding: 10px;
+}
+
+.colorido{
+    background-image: linear-gradient(to right,var(--verde-secundario), rgba(0, 0, 0, 0));
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+
+.imagens img{
+    width: 100%;
+    padding: 0px 15px;
+}
+
+.img-solo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mp4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: var(--verde-secundario);
+}
+
+video{
+    width: 800px;
+    height: 500px;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+#mais{
+    border-radius: 20px;
+    margin: auto 15px;
+    background-color:var(--verde-secundario);
+}
+
+.cabecalho-mais h4{
+    padding: 10px 0px;
+}
+
+.cabecalho-mais{
+    margin: 20px auto auto auto;
+    padding-left: 20px;
+    color: white;
+    background-color: var(--verde-principal);
+    border-radius: 20px 20px 0px 0px;
+}
+
+#versao-android{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+.quarta-v{
+    margin: auto 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nona-v{
+    margin: auto;
+    padding: 0px;
+}
+
+#versao-android p{
+    padding: 0px;
+    text-decoration: underline;
+}
+
+#last{
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+/*Fim do css do Header*/
+/*--------------------------*/
+/*Inicio do css do Footer*/
+
+footer{
+    text-align: center;
+    background-color: var(--verde-principal);
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+i{
+    font-weight: bold;
+}
+
+/*Fim do css do Footer*/

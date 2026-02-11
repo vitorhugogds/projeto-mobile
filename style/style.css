@@ -12,8 +12,8 @@
 }
 
 :root{
-    --verde-secundario: #90ee90e5;
     --verde-principal: #2E8B57;
+    --verde-secundario: #90ee90e5;
 }
 
 body{
@@ -92,7 +92,7 @@ header{
 }
 
 .menu a:hover{
-    background-color: #555;
+    background-color: #555555c0;
     border-radius: 2px;
 }
 
@@ -107,8 +107,8 @@ main{
 }
 
 #corpo{
-    max-width: 1200px;
-    width: 90%;
+    max-width: 1000px;
+    width: 95%;
     margin: auto;
     background-color: white;
     border-radius: 0px 0px 10px 10px;
@@ -161,11 +161,8 @@ main{
     background-color: var(--verde-secundario);
 }
 
-video{
-    width: 800px;
-    height: 500px;
-    max-width: 100%;
-    border-radius: 5px;
+.mp4 iframe{
+    border-radius: 15px;
 }
 
 #mais{

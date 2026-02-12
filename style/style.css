@@ -62,12 +62,17 @@ header{
 
 .titulo h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.658);
 }
 
 .descricao{
     display: flex;
     justify-content: center;
     margin-top: 10px;
+}
+
+.descricao h3{
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.658);
 }
 
 .descricao h3{
@@ -108,7 +113,6 @@ main{
 
 #corpo{
     max-width: 1000px;
-    width: 95%;
     margin: auto;
     background-color: white;
     border-radius: 0px 0px 10px 10px;

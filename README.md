@@ -1,3 +1,2 @@
 <img width="1905" height="909" alt="{C59D8B3A-BE4D-4071-A9F7-A5C9B6FDA7C5}" src="https://github.com/user-attachments/assets/c0042eaf-bba1-43d1-b5c1-49719d558069" />
-
-Destaque Técnico: Aplicação de conceitos de Mobile First e Design Responsivo, garantindo uma experiência de navegação fluida em diferentes tamanhos de tela. Utilização de semântica HTML para acessibilidade e organização de layout moderna com foco em legibilidade.
+Aplicação de conceitos de Mobile First e Design Responsivo, garantindo uma experiência de navegação fluida em diferentes tamanhos de tela. Utilização de semântica HTML para acessibilidade e organização de layout moderna com foco em legibilidade.
